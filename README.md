@@ -50,3 +50,58 @@ Ruby Factorial Calculator en Docker Hub (https://hub.docker.com/repository/docke
 Este repositorio está disponible bajo la Licencia MIT.
 
 *Recuerda reemplazar `<tu-usuario>` con tu nombre de usuario de GitHub o Docker Hub. Este archivo `README.md` proporciona todos los pasos e información necesaria para clonar, ejecutar, y dockerizar el proyecto.*
+
+
+
+# **Ruby Factorial Calculator**
+
+**`README.md` for `ruby-factorial`**
+
+This repository contains a Ruby program that calculates the factorial of a number.
+
+## Description
+
+The program takes an integer and calculates its factorial recursively.
+
+## Requirements
+
+- **Language**: Ruby 3.0
+- **Requirements**: Ruby 3.x
+
+## How to Clone and Run
+
+To clone this repository to your local machine, use the following commands:
+
+```bash
+git clone https://github.com/<your-user>/ruby-factorial.git
+cd ruby-factorial
+```
+To run the program, use:
+
+```bash
+ruby factorial.rb
+```
+
+## Dockerization
+**Step 1: Build the Docker Image**
+```bash
+docker build -t ruby-factorial .
+```
+
+**Step 2: Tag the Image**
+```bash
+docker tag ruby-factorial <your-user>/ruby-factorial:latest
+```
+
+**Step 3: Push the Image to Docker Hub**
+```bash
+docker push <your-user>/ruby-factorial:latest
+```
+
+### Link to Docker Hub
+Ruby Factorial Calculator on Docker Hub (https://hub.docker.com/repository/docker/alex8991/ruby-factorial/general)
+
+### License
+This repository is available under the MIT License.
+
+*Remember to replace `<your-user>` with your GitHub or Docker Hub username. This `README.md` file provides all the steps and information needed to clone, run, and dockerize the project.*
