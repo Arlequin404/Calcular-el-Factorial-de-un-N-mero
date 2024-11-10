@@ -44,7 +44,7 @@ docker push <tu-usuario>/ruby-factorial:latest
 ```
 
 ### Enlace al Docker Hub
-Ruby Factorial Calculator en Docker Hub (https://hub.docker.com/repository/docker/alex8991/ruby-factorial/general)
+Ruby Factorial Calculator en Docker Hub https://hub.docker.com/repository/docker/alex8991/ruby-factorial/general
 
 ### Licencia
 Este repositorio está disponible bajo la Licencia MIT.
@@ -99,7 +99,7 @@ docker push <your-user>/ruby-factorial:latest
 ```
 
 ### Link to Docker Hub
-Ruby Factorial Calculator on Docker Hub (https://hub.docker.com/repository/docker/alex8991/ruby-factorial/general)
+Ruby Factorial Calculator on Docker Hub https://hub.docker.com/repository/docker/alex8991/ruby-factorial/general
 
 ### License
 This repository is available under the MIT License.
