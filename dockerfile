@@ -1,8 +1,11 @@
-# Usa la imagen oficial de Ruby
-FROM ruby:latest
+# Usar una imagen base de Ruby
+FROM ruby:2.7
 
-# Copia el archivo Ruby al contenedor
-COPY app.rb /app.rb
+# Establecer el directorio de trabajo
+WORKDIR /app
 
-# Ejecuta el programa
-CMD ["ruby", "/app.rb"]
+# Copiar el código fuente al contenedor
+COPY . .
+
+# Ejecutar el programa
+CMD ["ruby", "factorial.rb"]
